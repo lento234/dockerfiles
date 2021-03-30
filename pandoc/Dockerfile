@@ -4,4 +4,4 @@ RUN apk --no-cache add make
 
 WORKDIR /home
 
-ENTRYPOINT []
+ENTRYPOINT [""]
