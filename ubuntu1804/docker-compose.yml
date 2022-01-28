@@ -1,8 +1,0 @@
-version: '3.7'
-services:
-    ubuntu:
-        image: mrlento234/ubuntu:latest
-        build:
-            dockerfile: Dockerfile
-            context: .
-
