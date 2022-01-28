@@ -8,12 +8,12 @@
 
 </div>
 
-
-
 ## Usage
 
 Show a list of available commands:
 
-        make
+    $ make
 
+    build                          Build and push all docker images
+    interact                       Interact with a docker image (arg: IMAGE=<image>)
 
