@@ -9,7 +9,6 @@ help:
 .PHONY: build
 build: ## Build and push all docker images
 	@$(CURDIR)/build.sh
-	#cd $(IMAGE) && DOCKER_BUILDKIT=1 docker build --progress=auto -t $(USER)/$(IMAGE) .
 
 .PHONY: interact
 interact: ## Interact with a docker image (arg: IMAGE=<image>)
