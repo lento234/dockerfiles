@@ -2,7 +2,7 @@
 set -e
 set -o pipefail
 
-USER=mrlento234
+# USER=mrlento234
 
 build_image () {
     IMAGE=$1
