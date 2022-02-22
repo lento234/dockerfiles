@@ -10,10 +10,10 @@ help:
 all: ## Build and push all docker images
 	@$(CURDIR)/build.sh all
 
-build: ## Build and push a docker images (arg: IMAGE=<image>)
-	@$(CURDIR)/build.sh $(IMAGE)
+build: ## Build and push a docker images (arg: I=<image>)
+	@$(CURDIR)/build.sh $(I)
 
 .PHONY: interact
-interact: ## Interact with a docker image (arg: IMAGE=<image>)
-	docker run -it --rm $(USER)/$(IMAGE) bash
+interact: ## Interact with a docker image (arg: I=<image>)
+	docker run -it --rm $(USER)/$(I) bash
 
